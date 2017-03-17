@@ -1,0 +1,79 @@
+/*  CSS Document                             */
+/*  Written by Chris Converse for Lynda.com  */
+
+@import url(http://fonts.googleapis.com/css?family=Teko:300,700);
+
+body { margin: 0; padding: 0; background-color: #092f6e; color: #fff;
+	background: #ff0000 url(g2.jpg) no-repeat center center;
+	background-size: cover;
+  }
+
+#world-premiere {
+	font-size: 16px;
+	font-family: 'Teko', sans-serif;
+	width: 740px;
+	margin: 25px auto;
+	min-height: 575px;
+}
+
+#world-premiere .my-countdown {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+#world-premiere .my-countdown .countdown-row {
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#world-premiere .my-countdown .countdown-section {
+	display: inline-block;
+	width: 170px;
+}
+
+#world-premiere .my-countdown .countdown-amount {
+	display: inline;
+	color: #fff;
+	font-size: 5.6em;
+	line-height: 55px;
+}
+
+#world-premiere .my-countdown .countdown-period {
+	display: inline;
+	color: #fff;
+	font-size: 2.4em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background: #ff0000 url(g2_mobile.jpg) no-repeat center center;
+  }
+  #world-premiere .my-countdown {
+		position: absolute;
+		top: 0;
+		text-align: center;
+
+	}
+
+	#world-premiere .my-countdown .countdown-amount {
+		font-size: 2.5em;
+	}
+
+	#world-premiere .my-countdown .countdown-period {
+		font-size: 1em;
+	}
+
+	#world-premiere .my-countdown .countdown-section {
+		width: 25vw;
+		background-color: #000;
+	}
+}
+
+
+
+
+
