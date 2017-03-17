@@ -11,7 +11,7 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff;
 #world-premiere {
 	font-size: 16px;
 	font-family: 'Teko', sans-serif;
-	width: 740px;
+	width: 700px;
 	margin: 25px auto;
 	min-height: 575px;
 }
@@ -20,6 +20,7 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff;
 	position: absolute;
 	bottom: 0;
 	text-align: center;
+	margin-left: 25px;
 }
 
 #world-premiere .my-countdown .countdown-row {
@@ -48,7 +49,7 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff;
 	letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 769px) {
   body {
     background: #ff0000 url(g2_mobile.jpg) no-repeat center center;
   }
